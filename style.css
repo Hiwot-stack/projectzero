@@ -6,7 +6,10 @@
 }
 
 img{
-    max-width: fit-content;
+    max-width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 250px;
 }
 body {
         background-image: url(./image/netela.jpg);
@@ -65,26 +68,63 @@ body {
 
 /* Main Highlight */
 .main-highlight-wrapper{
+    display: flex;
+    justify-content: space-between;
     background: rgb(170, 255, 184);
     border: 5px solid green;
     padding: 25px;
     margin: 25px;
 }
+.main-highlight-wrapper p {
+    padding: 10px;
+    margin: 20px;
+}
+.main-highlight-wrapper img{
+    width: 25%;
+    padding: 10px;
+    margin: 30px;
+
+}
 
 /* Second Highlight Section */
 .second-highlight-wrapper{
+    display: flex;
+    justify-content: space-between;
     background: rgb(253, 252, 164);
     border: 5px solid yellow;
     padding: 25px;
     margin: 25px;
 }
+.second-highlight-wrapper p {
+    padding: 10px;
+    margin: 20px;
+
+}
+.second-highlight-wrapper img{
+    width: 25%;
+    padding: 10;
+    margin: 30;
+}
 
 /* Third Highlight Section */
 .third-highlight-wrapper{
+    display: flex;
+    justify-content: space-between;
     background: rgb(243, 121, 121);
     border: 5px solid red;
     padding: 25px;
     margin: 25px;
+}
+
+.third-highlight-wrapper p{
+    padding: 10px;
+    margin: 20px;
+}
+
+.third-highlight-wrapper img{
+    width: 25%;
+    padding: 10;
+    margin: 30;
 }
 
 #btn{
@@ -105,7 +145,7 @@ body {
     width: 50%;
 }
 
-#joke{
+#quote{
     font-size: larger;
     font-weight: 700;
 }
