@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: fit-content;
+}
+body {
+        background-image: url(./image/netela.jpg);
+        height: 580px;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 65px 20px;
+        font-size: 20px;
+        font-family: 'Lato', sans-serif;
+}
+
+/* Header Style */
+
+.header-wrapper{
+    background-color: rgb(247, 240, 247);
+    color: #1f0101;
+    font-weight: 200;
+    font-size: 1.2em;
+}
+
+.header-wrapper ul{
+    display: flex;
+    /* -webkit-box-pack: justify; */
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.internal-wrapper {
+    width: 980px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header-wrapper .header-links-wrapper ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.header-wrapper ul {
+    display: flex;
+    padding: 14px 0 8px;
+    height: 25px;
+    opacity: 0.8;
+}
+.logo-link{
+    width: 18px;
+    display: block;
+}
+
+.header-wrapper .header-links-wrapper ul li.logo-link{
+    padding: 12px 0 10px;
+}
+
+/* Main Highlight */
+.main-highlight-wrapper{
+    background: rgb(170, 255, 184);
+    border: 5px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+/* Second Highlight Section */
+.second-highlight-wrapper{
+    background: rgb(253, 252, 164);
+    border: 5px solid yellow;
+    padding: 25px;
+    margin: 25px;
+}
+
+/* Third Highlight Section */
+.third-highlight-wrapper{
+    background: rgb(243, 121, 121);
+    border: 5px solid red;
+    padding: 25px;
+    margin: 25px;
+}
+
+#btn{
+    background-color: blue;
+    font-weight: 900;
+    font-size: larger;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 20%;
+}
+
+
+.btn-wrapper{
+    background: rgb(21, 236, 236);
+    border: 5px solid rgb(21, 236, 236);
+    padding: 25px;
+    margin: 25px;
+    width: 50%;
+}
+
+#joke{
+    font-size: larger;
+    font-weight: 700;
+}
